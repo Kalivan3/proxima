@@ -12,6 +12,7 @@
 *.sch-bak
 proxima-rescue.dcm
 proxima-rescue.lib
+proxima-rescue.kicad_sym
 *~
 _autosave-*
 *.tmp
