@@ -14,7 +14,8 @@ retrigger capacitor is 100nF
 https://github.com/jdesbonnet/RCWL-0516
 https://www.electronics-tutorials.ws/blog/relay-switch-circuit.html
 https://automotionsensor.com/rcwl-0516-microwave-radar-sensor/
-
+https://freakengineer.com/transformerless-power-suppy/
+https://www.youtube.com/watch?v=Hf19hc9PtcE
 ## Contributing
 
 
