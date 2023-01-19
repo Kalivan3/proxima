@@ -998,7 +998,6 @@
     )
   )
 
-
   (junction (at 128.27 81.28) (diameter 0) (color 0 0 0 0)
     (uuid 404829ec-f4ca-4707-bc66-fd8b880ea561)
   )
@@ -1209,7 +1208,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006362c072)
     (property "Reference" "C1" (id 0) (at 124.46 71.0692 90))
-    (property "Value" "C" (id 1) (at 124.46 73.3806 90))
+    (property "Value" "1u/400V" (id 1) (at 124.46 73.3806 90))
     (property "Footprint" "" (id 2) (at 120.65 78.4352 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1226,7 +1225,7 @@
     (property "Reference" "C2" (id 0) (at 178.181 86.7156 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470" (id 1) (at 178.181 89.027 0)
+    (property "Value" "470nF" (id 1) (at 178.181 89.027 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 175.26 87.884 0)
@@ -1266,7 +1265,7 @@
     (property "Reference" "D2" (id 0) (at 165.8366 89.0016 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DZ2S051X0L" (id 1) (at 165.8366 91.313 90)
+    (property "Value" "12v/1w" (id 1) (at 165.8366 91.313 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Diode_SMD:D_SOD-523" (id 2) (at 159.385 90.17 0)
@@ -1540,16 +1539,16 @@
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006362c072"
-      (reference "C1") (unit 1) (value "C") (footprint "")
+      (reference "C1") (unit 1) (value "1u/400V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006362c51f"
-      (reference "C2") (unit 1) (value "470") (footprint "")
+      (reference "C2") (unit 1) (value "470nF") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006362d2c4"
       (reference "D1") (unit 1) (value "D_Bridge_+-AA") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006362e947"
-      (reference "D2") (unit 1) (value "DZ2S051X0L") (footprint "Diode_SMD:D_SOD-523")
+      (reference "D2") (unit 1) (value "12v/1w") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/00000000-0000-0000-0000-0000636b8955"
       (reference "D3") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
